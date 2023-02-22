@@ -8,7 +8,7 @@ body {
 }
 
 .brand {
-  border: solid green 2px;
+  /* border: solid green 2px; */
   padding: 10px 10vw 5vh 10vw;
   font-size: 25px
 }
