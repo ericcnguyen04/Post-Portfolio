@@ -12,3 +12,24 @@ body {
   padding: 10px 10vw 5vh 10vw;
   font-size: 25px
 }
+
+.about1 {
+  /* border: solid green 2px; */
+  padding: 40px 10vw 5vh 10vw;
+  display: flex;
+  justify-content: space-around;
+} 
+
+.vid {
+  /* border: solid rgb(103, 141, 103) 7px; */
+}
+
+.swimDscpt {
+  /* border: solid green 2px; */
+  background-color: beige;
+  padding: 20px;
+  height: 576px;
+  width: 720px;
+  font-size: 25px;
+  border-radius: 25px;
+}
