@@ -1,23 +1,37 @@
-export default function home() {
+import { useNavigate } from 'react-router-dom';
+
+import Button from 'react-bootstrap/Button';
+import { redirect } from 'react-router-dom';
+
+
+export default function Home() {
+    
+    let navigate = useNavigate();
+    
     return(
         <>
             <div>
-                <h1>Eric Nguyen</h1>
+                <center><h1>Eric Nguyen</h1></center>
             </div>
 
-            <div>
+            <div className="brand">
                 {/* brand statement */}
                 I am an aspiring full-stack developer with visions of passion and ambition! As I grew up, I always loved witnessing the end product of my projects, which included my efforts with front and back end, and I felt nothing but joy. I will work with my peers and create a positive environment by being compatible and ensuring that there is no confusion! Previously, as an insurance agent, I have habits of taking the initiative and making sure that we are making progress to promote time management. Most importantly, my mindset is always on a growth mindset and open to critique while providing feedback.
 
                 {/* redirect stating 'learn more about me */}
                 <div>
-                    <a href="/about">Learn more about me!</a>
+                    <a href="/about"></a>
+                    <Button variant="primary" onClick={() => navigate('/about')}>
+                        Learn more about me!</Button>{' '}
+
                 </div>
             </div>
 
             {/* how i get into software engineering */}
             <div>
+                <center>
                 <h1>How did I get into software engineering?</h1>
+                </center>
             </div>
             {/* minecraft era */}
             <h2>Minecraft era</h2>
@@ -32,3 +46,10 @@ export default function home() {
         </>
     )
 }
+
+
+// <Link to={'/'}>Home</Link>
+// <Link to={'/projects'}>Projects</Link>
+// <Link to={'/about'}>About me</Link>
+// <Link to={'/contact'}>Contact</Link>
+// <Link to={'/resume'}>Resume</Link>
