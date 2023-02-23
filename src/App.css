@@ -39,3 +39,15 @@ body {
   margin-top: 20px;
   border: solid black 2px;
 }
+
+.project {
+    /* border: solid green 2px; */
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 50px */
+  justify-content: space-around;
+  align-content: flex-start;
+}
