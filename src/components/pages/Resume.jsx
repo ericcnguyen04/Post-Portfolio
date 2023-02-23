@@ -1,3 +1,5 @@
+import Button from 'react-bootstrap/Button';
+
 export default function Resume() {
 
 	// Function will execute on click of button
@@ -18,10 +20,14 @@ export default function Resume() {
 
     return(
         <div>
-            <h3>Click on below button to download PDF file</h3>
-            <button onClick={onButtonClick}>
-                Download PDF
-            </button>
+			<center>
+				<img src="Screen Shot 2023-02-22 at 7.20.49 PM.png" className="certificate"></img>
+
+				<h3>My Resume</h3>
+
+				<Button variant="primary" onClick={onButtonClick}>
+                    Download</Button>{' '}
+			</center>
         </div>
     )
 }

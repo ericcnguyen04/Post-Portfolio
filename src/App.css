@@ -33,3 +33,9 @@ body {
   font-size: 25px;
   border-radius: 25px;
 }
+
+.certificate {
+  width: 60vw;
+  margin-top: 20px;
+  border: solid black 2px;
+}
