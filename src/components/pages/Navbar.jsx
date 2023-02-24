@@ -9,11 +9,11 @@ export default function ColorSchemesExample() {
         <Container>
           <Navbar.Brand href="/">Eric Nguyen</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/projects">Projects</Nav.Link>
-            <Nav.Link href="/about">About me</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
-            <Nav.Link href="/resume">Resume</Nav.Link>
+            <Nav.Link href="/Post-Portfolio/">Home</Nav.Link>
+            <Nav.Link href="/Post-Portfolio/projects">Projects</Nav.Link>
+            <Nav.Link href="/Post-Portfolio/about">About me</Nav.Link>
+            <Nav.Link href="/Post-Portfolio/contact">Contact</Nav.Link>
+            <Nav.Link href="/Post-Portfolio/resume">Resume</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
