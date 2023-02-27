@@ -16,27 +16,27 @@ function App() {
       
       <Routes>
         <Route 
-          path="/Post-Portfolio/"
+          path="/"
           element={<Home />}
         />
 
         <Route 
-          path="/Post-Portfolio/projects"
+          path="/projects"
           element={<Projects />}
         />
         
         <Route 
-          path="/Post-Portfolio/about"
+          path="/about"
           element={<About />}
         />
 
         <Route 
-          path="/Post-Portfolio/contact"
+          path="/contact"
           element={<Contact />}
         />
 
         <Route 
-          path="/Post-Portfolio/resume"
+          path="/resume"
           element={<Resume />}
         />
 

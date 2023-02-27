@@ -1,22 +1,19 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import Link from 'react-router-dom'
+
+// css
+import '../../css/NavStyle.css'
 
 export default function ColorSchemesExample() {
   return (
     <>
-      <Navbar bg="dark" variant="dark">
-        <Container>
-          <Navbar.Brand href="/">Eric Nguyen</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="/Post-Portfolio/">Home</Nav.Link>
-            <Nav.Link href="/Post-Portfolio/projects">Projects</Nav.Link>
-            <Nav.Link href="/Post-Portfolio/about">About me</Nav.Link>
-            <Nav.Link href="/Post-Portfolio/contact">Contact</Nav.Link>
-            <Nav.Link href="/Post-Portfolio/resume">Resume</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
+      <div className='linkContainer'>
+        <a href="/" className='links'>Eric Nguyen</a>
+        <a href="/" className='links'>Home</a>
+        <a href="/projects" className='links'>Projects</a>
+        <a href="/about" className='links'>About me</a>
+        <a href="/contact" className='links'>Contact</a>
+        <a href="/resume" className='links'>Resume</a>
+      </div>
     </>
   )
 }
