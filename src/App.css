@@ -42,6 +42,14 @@ body {
   border-radius: 25px;
 }
 
+/* contact */
+.contact-card {
+  border: solid black 2px;
+  width: 35vw;
+}
+
+
+/* resume */
 .certificate {
   width: 60vw;
   margin-top: 20px;
