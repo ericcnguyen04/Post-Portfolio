@@ -16,8 +16,19 @@ export default function Projects() {
             </Card>
             <Card style={{ width: '20vw' }}>
                 <Card.Body>
-                    <Card.Title><h1>Mern Maveriks</h1></Card.Title>
+                    <Card.Title><h1>Redface</h1></Card.Title>
                     <Card.Subtitle className="mb-2 text-muted"><h2>Full Stack</h2></Card.Subtitle>
+                    <Card.Text>
+                        My first <strong>group</strong> project consists the usage of MERN stack . This project was inspired by a popular 2014 game known as, Flappy Bird
+                    </Card.Text>
+                    <Card.Link href="https://redface.herokuapp.com/">Try it out!</Card.Link>
+                    <Card.Link href="https://github.com/ericcnguyen04/Project-2">My Github</Card.Link>
+                </Card.Body>
+            </Card>
+            <Card style={{ width: '20vw' }}>
+                <Card.Body>
+                    <Card.Title><h1>Mern Maveriks</h1></Card.Title>
+                    <Card.Subtitle className="mb-2 text-muted"><h2>Collaborative Full Stack</h2></Card.Subtitle>
                     <Card.Text>
                         My first <strong>group</strong> project consists the usage of MERN stack . This project was inspired by a popular 2014 game known as, Flappy Bird
                     </Card.Text>
