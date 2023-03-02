@@ -21,7 +21,7 @@ export default function Resume() {
     return(
         <div className='background'>
 			<center className='height'>
-				<img src="Screen Shot 2023-02-22 at 7.20.49 PM.png" alt='my certification from General Assembly' className="certificate"></img>
+				<img src="/content/Screen Shot 2023-02-22 at 7.20.49 PM.png" alt='my certification from General Assembly' className="certificate"></img>
 
 				<h3>My Resume</h3>
 

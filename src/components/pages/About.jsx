@@ -30,7 +30,7 @@ export default function About() {
             {/* post pandemic era */}
             <div className="about1">
 
-                <video src='video.mp4' width="324" height="576" className="vid" controls></video>
+                <video src='/content/video.mp4' width="324" height="576" className="vid" controls></video>
                     
                 {/* my swim era */}
                 <div className="swimDscpt">
