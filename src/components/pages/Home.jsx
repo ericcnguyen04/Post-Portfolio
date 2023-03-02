@@ -8,7 +8,7 @@ export default function Home() {
     let navigate = useNavigate();
     
     return(
-        <>
+        <div>
             <div>
                 <center><h1>Eric Nguyen</h1></center>
             </div>
@@ -25,7 +25,7 @@ export default function Home() {
                     </center>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 
