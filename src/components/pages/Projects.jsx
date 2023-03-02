@@ -1,4 +1,5 @@
 import Card from 'react-bootstrap/Card';
+import ProjectCards from './ProjectCards'
 
 export default function Projects() {
     return(
@@ -21,8 +22,7 @@ export default function Projects() {
                         <Card.Title><h1>Redface</h1></Card.Title>
                         <Card.Subtitle className="mb-2 text-muted"><h2>Full Stack</h2></Card.Subtitle>
                         <Card.Text>
-                            My first <strong>group</strong> project consists the usage of MERN stack . This project was inspired by a popular 2014 game known as, Flappy Bird
-                        </Card.Text>
+                        Developed a full-stack application involving social aspects of alcoholic beverages with features of CRUD using node.js, postgreSQL, and express. I was responsible for the front and backend while implementing APIs.                        </Card.Text>
                         <Card.Link href="https://redface.herokuapp.com/">Try it out!</Card.Link>
                         <Card.Link href="https://github.com/ericcnguyen04/Project-2">My Github</Card.Link>
                     </Card.Body>
@@ -39,6 +39,28 @@ export default function Projects() {
                         <Card.Link href="https://github.com/ericcnguyen04/project-3-client">My frontend!</Card.Link>
                     </Card.Body>
                 </Card>
+
+                <ProjectCards 
+                    img={'/content/birdtime.png'}
+                    title={"Mern Maveriks"}
+                    subtitle={"Collaborative Full Stack"}
+                    text={"feexz"}
+                    
+                />
+                <ProjectCards 
+                    title={"Mern Maveriks"}
+                    subtitle={"Collaborative Full Stack"}
+                    text={"feexz"}
+                    
+                />
+                <ProjectCards 
+                    title={"Mern Maveriks"}
+                    subtitle={"Collaborative Full Stack"}
+                    text={"feexz"}
+                    
+                />
+
+
                 <Card style={{ width: '20vw' }}>
                     <Card.Body>
                         <Card.Title><h1>More Coming soon!</h1></Card.Title>
