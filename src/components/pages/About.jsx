@@ -5,6 +5,13 @@ export default function About() {
 
     return(
         <div className='background'>  
+            <div>
+                <center>
+                <h1>What is my background?</h1>
+                </center>
+            </div>
+            <div className='brand'>
+            I'm proud to say that I come from a background that values hard work and perseverance. As a first-generation Vietnamese, I was raised to appreciate my cultural roots while also embracing the opportunities that come with living in a Western society. Through my experiences, I've become increasingly aware of the importance of being adaptable and flexible in order to achieve success. Taking a nontraditional path to education, I attended a coding bootcamp, which allowed me to pursue my passion for technology in a fast-paced and dynamic learning environment. Despite the challenges that came with this path, my ambition and drive to succeed have never faltered. Through my hard work and dedication, I've been able to carve out a successful career in tech, which I believe is a testament to the values instilled in me by my upbringing.            </div>
             {/* how i get into software engineering */}
             <div>
                 <center>
