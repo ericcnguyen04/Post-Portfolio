@@ -2,8 +2,8 @@
 
 export default function Contact() {
     return(
-        <div>
-            <center>
+        <div className='background'>
+            <center className="height">
 
                 <div>
                     <h1>

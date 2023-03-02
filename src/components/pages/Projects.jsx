@@ -3,6 +3,7 @@ import Card from 'react-bootstrap/Card';
 export default function Projects() {
     return(
         <div className='background'>
+            <div>
             <div className='project '>
                 <Card style={{ width: '20vw' }}>
                     <Card.Body>
@@ -38,7 +39,12 @@ export default function Projects() {
                         <Card.Link href="https://github.com/ericcnguyen04/project-3-client">My frontend!</Card.Link>
                     </Card.Body>
                 </Card>
-                
+                <Card style={{ width: '20vw' }}>
+                    <Card.Body>
+                        <Card.Title><h1>More Coming soon!</h1></Card.Title>
+                    </Card.Body>
+                </Card>
+            </div>
             </div>        
         </div>
     )

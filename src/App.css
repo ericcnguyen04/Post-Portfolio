@@ -1,7 +1,8 @@
-
+.height {
+  height: 100vh;
+}
 
 .background {
-  /* background-color: rgb(163, 95, 7); */
   height: 100%;
   background-color: rgb(114, 114, 194);
 }
@@ -11,7 +12,7 @@
   margin: auto;
   height: 100vh;
   width: 75%;
-  border: 3px solid green;
+  /* border: 3px solid green; */
   padding: 20px;
 
 }
@@ -42,7 +43,8 @@
 
 .swimDscpt {
   /* border: solid green 2px; */
-  background-color: beige;
+  border: solid black 2px;
+  background-color: rgb(107, 171, 190);
   padding: 20px;
   height: 576px;
   width: 720px;
@@ -68,10 +70,11 @@
     /* border: solid green 2px; */
   margin-left: 10vw;
   margin-right: 10vw;
-  margin-top: 20px;
+  padding-top: 20px;
   display: flex;
   flex-wrap: wrap;
-  /* gap: 50px */
+  gap: 50px;
   justify-content: space-around;
   align-content: flex-start;
+  height: 100vh;
 }

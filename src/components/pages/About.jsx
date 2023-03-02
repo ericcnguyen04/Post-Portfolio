@@ -17,7 +17,7 @@ export default function About() {
             It's amazing how sometimes our passions can lead us down unexpected paths. For me, it was my love for playing Minecraft, at a very young age, that inadvertently sparked my interest in software engineering. I spent hours creating complex structures in the game using command blocks without even realizing that I was coding. It was through trial and error that I learned how to manipulate the game to create the desired effects, such as recreating popular mini-games and redstone contraptions. It wasn't until years later that I discovered that the skills I had developed while playing Minecraft were transferable to programming and software engineering. This realization was a game-changer for me, and it ultimately led you down the path to becoming a software engineer. My experiences just shows that you will never know where your passions might take you!
                 <div>
                     <center>
-                    <Button variant="primary" href='https://www.codewizardshq.com/how-minecraft-teaches-coding/'>
+                    <Button variant="light" href='https://www.codewizardshq.com/how-minecraft-teaches-coding/'>
                         Learn more about Minecraft!
                     </Button>{' '}
                     </center>
