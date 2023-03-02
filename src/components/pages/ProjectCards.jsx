@@ -1,11 +1,16 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
+import { useNavigate } from 'react-router-dom';
+
 function BasicExample(props) {
+
+    let navigate = useNavigate();
+
   return (
     <Card style={{ width: '20vw' }}> 
     {/* 20vw */}
-      <Card.Img variant="top" src={props.img} />
+      <Card.Img variant="top" src={props.img} onClick={() => location.href}/>
       <Card.Body>
         <Card.Title><h1>{props.title}</h1></Card.Title>
         <Card.Subtitle className="mb-2 text-muted"><h2>{props.subtitle}</h2></Card.Subtitle>

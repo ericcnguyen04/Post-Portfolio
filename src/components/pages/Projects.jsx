@@ -7,6 +7,7 @@ export default function Projects() {
             <div>
             <div className='project '>
                 <ProjectCards 
+                    deploy={'https://ericcnguyen04.github.io/PROJECT1/'}
                     img={'/content/birdtime.png'}
                     title={"CrazyTime"}
                     subtitle={"Collaborative Full Stack"}
@@ -14,6 +15,7 @@ export default function Projects() {
                     github={"https://github.com/ericcnguyen04/PROJECT1"}
                 />
                 <ProjectCards 
+                    deploy={'https://redface.herokuapp.com/'}
                     img={'/content/redface.png'}
                     title={"Redface"}
                     subtitle={"Collaborative Full Stack"}
@@ -21,6 +23,7 @@ export default function Projects() {
                     github={'https://github.com/ericcnguyen04/Project-2'}
                 />
                 <ProjectCards 
+                    deploy={'https://stellular-horse-44ede4.netlify.app/items'}
                     img={'/content/mernmav.png'}
                     title={"Mern Maveriks"}
                     subtitle={"Collaborative Full Stack"}

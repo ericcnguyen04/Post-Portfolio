@@ -2,7 +2,6 @@ import Button from 'react-bootstrap/Button';
 
 export default function About() {
 
-
     return(
         <div className='background'>  
             <div>
