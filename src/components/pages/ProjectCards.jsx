@@ -12,7 +12,7 @@ function BasicExample(props) {
         <Card.Text>
           {props.text}
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary" href={props.github} target="_blank">Go to my code!</Button>
       </Card.Body>
     </Card>
   );
