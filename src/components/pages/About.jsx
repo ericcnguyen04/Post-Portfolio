@@ -4,7 +4,7 @@ export default function About() {
 
 
     return(
-        <div>  
+        <div className='background'>  
             {/* how i get into software engineering */}
             <div>
                 <center>
