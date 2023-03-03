@@ -26,7 +26,8 @@ function BasicExample(props) {
         <Card.Text>
           {props.text}
         </Card.Text>
-        <Button variant="primary" href={props.github} target="_blank">Go to my code!</Button>
+        <Button variant="primary" href={props.github} target="_blank">Go to my code!</Button> {' '}
+        <Button variant="primary" href={props.deploy} target="_blank">Deploy!</Button>
       </Card.Body>
     </Card>
   );
