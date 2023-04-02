@@ -5,11 +5,11 @@ export default function Navbar() {
   return (
     <>
       <div className='linkContainer'>  
-          <a href="/" className='button'>Eric Nguyen</a>
-          <a href="/about" className='button'>About me</a>
-          <a href="/projects" className='button'>Projects</a>
-          <a href="/contact" className='button'>Contact</a>
-          <a href="/resume" className='button'>Resume</a>
+          <a href="/" className='links'>Eric Nguyen</a>
+          <a href="/about" className='links'>About me</a>
+          <a href="/projects" className='links'>Projects</a>
+          <a href="/contact" className='links'>Contact</a>
+          <a href="/resume" className='links'>Resume</a>
       </div>
     </>
   )
