@@ -1,11 +1,23 @@
 .linkContainer {
-    /* border: solid green 2px; */
+    border: solid green 2px;
     background-color: rgb(56, 53, 106);
     display: flex;
     justify-content: space-evenly;
+    min-height: 100px;
 }
 
 .links {
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    padding: 10px 0px;
+}
+
+.button {
+    border-radius: 63px;
+    background: #4874a3;
+    box-shadow:  16px 16px 31px #304e6d,
+                 -16px -16px 31px #609ad9;
     color: white;
     text-decoration: none;
     font-size: 32px;
