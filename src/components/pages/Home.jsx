@@ -2,8 +2,6 @@ import HomeContent from './HomeContent'
 
 export default function Home() {
     
-
-    
     return(
         <div className='background'>
             <center>
@@ -14,9 +12,3 @@ export default function Home() {
     )
 }
 
-
-// <Link to={'/'}>Home</Link>
-// <Link to={'/projects'}>Projects</Link>
-// <Link to={'/about'}>About me</Link>
-// <Link to={'/contact'}>Contact</Link>
-// <Link to={'/resume'}>Resume</Link>
