@@ -32,7 +32,7 @@ body{
     width: 100%;
     position: absolute;
     top:50vh;
-    
+    border: solid red 2px
 }
 
 .context h1{

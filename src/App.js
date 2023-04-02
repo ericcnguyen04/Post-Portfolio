@@ -21,10 +21,10 @@ function App() {
         
       <About />
 
-      <Contact />
 
       <Resume />
 
+      <Contact />
     </Router>
   )
 }
