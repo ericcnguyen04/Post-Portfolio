@@ -31,7 +31,7 @@ body{
 .context {
     width: 100%;
     position: absolute;
-    top:50vh;
+    top:20vh;
     border: solid red 2px
 }
 
@@ -41,6 +41,10 @@ body{
     font-size: 50px;
 }
 
+.context h3{
+    text-align: center;
+    color: #fff;
+}
 
 .area{
     background: #4e54c8;  
