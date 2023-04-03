@@ -11,7 +11,7 @@
 .homepage {
   margin: auto;
   width: 75%;
-  border: 3px solid green;
+  /* border: 3px solid green; */
   padding: 20px;
 
 }
@@ -31,7 +31,7 @@ body{
   width: 100%;
   position: absolute;
   top:10vh;
-  border: solid red 2px
+  /* border: solid red 2px */
 }
 
 .context {
