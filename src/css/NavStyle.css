@@ -1,5 +1,5 @@
 .linkContainer {
-    border: solid green 2px;
+    /* border: solid green 2px; */
     background-color: rgb(56, 53, 106);
     display: flex;
     justify-content: space-evenly;

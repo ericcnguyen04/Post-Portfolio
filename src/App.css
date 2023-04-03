@@ -38,7 +38,7 @@ body{
     width: 100%;
     position: absolute;
     top:20vh;
-    border: solid red 2px
+    /* border: solid red 2px */
 }
 
 .context h1{
