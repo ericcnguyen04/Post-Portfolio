@@ -12,7 +12,7 @@ import './App.css'
 function App() {
   return(
     <Router className='appMainPage'>
-      <Navbar />
+      {/* <Navbar /> */}
       
       <Home />
       
