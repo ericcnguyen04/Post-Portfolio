@@ -27,6 +27,12 @@ body{
     font-family: 'Exo', sans-serif;
 }
 
+.theRealLinks {
+  width: 100%;
+  position: absolute;
+  top:10vh;
+  border: solid red 2px
+}
 
 .context {
     width: 100%;

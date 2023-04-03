@@ -5,7 +5,6 @@ export default function Navbar() {
   return (
     <>
       <div className='linkContainer'>  
-          <a href="/" className='links'>Eric Nguyen</a>
           <a href="/about" className='links'>About me</a>
           <a href="/projects" className='links'>Projects</a>
           <a href="/contact" className='links'>Contact</a>
