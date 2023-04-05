@@ -8,13 +8,14 @@
 }
 
 /* home page */
-.homepage {
+/* .homepage {
   margin: auto;
   width: 75%;
-  /* border: 3px solid green; */
+  border: 3px solid green;
   padding: 20px;
 
-}
+} */
+
 /* ====== */
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
@@ -41,10 +42,24 @@ body{
     /* border: solid red 2px */
   }
   
-  .contextBio {
-  /* border: solid red 2px; */
+.contextBio {
+  border: solid red 2px;
   margin-left: 20%;
   margin-right: 20%;
+}
+
+.navContainer {
+  border: solid red 2px;
+  margin-left: 20%;
+  margin-right: 20%;
+  min-height: 30vh;
+}
+
+.button {
+  border-radius: 50px;
+  background: linear-gradient(145deg, #da4242, #b83838);
+  box-shadow:  36px 36px 72px #972e2e,
+               -36px -36px 72px #ff4e4e;
 }
 
 .context h1{
