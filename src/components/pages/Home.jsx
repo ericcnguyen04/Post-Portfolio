@@ -8,15 +8,7 @@ import {useEffect, useRef, useState} from 'react';
 export default function Home() {
 
     const ref = useRef(null);
-
-    const [numbers, setNumbers] = useState([]);
   
-    useEffect(() => {
-      setInterval(
-        () => setNumbers(current => [...current, Math.random()]),
-        1500,
-      );
-    }, []);
   
     const handleClick = () => {
       ref.current?.scrollIntoView({behavior: 'smooth'});
