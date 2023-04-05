@@ -22,17 +22,12 @@ function App() {
     <Router className='appMainPage'>
       {/* <Navbar /> */}
       
-      <Home />
-      
-      <Projects />
-
-        
+      <Home /> 
       <About />
-
-
+      <Projects />
       <Resume />
-
       <Contact />
+      
     </Router>
   )
 }
