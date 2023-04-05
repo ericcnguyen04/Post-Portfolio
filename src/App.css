@@ -50,9 +50,11 @@ body{
 
 .navContainer {
   border: solid red 2px;
+  display: flex;
+  justify-content: space-around;
   margin-left: 20%;
   margin-right: 20%;
-  min-height: 30vh;
+  /* min-height: 30vh; */
 }
 
 .button {

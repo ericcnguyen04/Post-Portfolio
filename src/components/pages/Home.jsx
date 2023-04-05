@@ -1,11 +1,26 @@
 import HomeContent from './HomeContent'
 import '../../App.css'
 
+import {useEffect, useRef, useState} from 'react';
+
+
+
 export default function Home() {
 
-    const scrollTo = () => {
-        
-    }
+    const ref = useRef(null);
+
+    const [numbers, setNumbers] = useState([]);
+  
+    useEffect(() => {
+      setInterval(
+        () => setNumbers(current => [...current, Math.random()]),
+        1500,
+      );
+    }, []);
+  
+    const handleClick = () => {
+      ref.current?.scrollIntoView({behavior: 'smooth'});
+    };
 
     return(
         <div>
@@ -19,6 +34,8 @@ export default function Home() {
                     {/* <h3>an aspiring full-stack developer with visions of passion and ambition! As I grew up, I always loved witnessing the end product of my projects, which included my efforts with front and back end, and I felt nothing but joy. I will work with my peers and create a positive environment by being compatible and ensuring that there is no confusion! Previously, as an insurance agent, I have habits of taking the initiative and making sure that we are making progress to promote time management. Most importantly, my mindset is always on a growth mindset and open to critique while providing feedback.</h3> */}
                 </div>
                 <div className='navContainer'>
+                    <button>boom</button>
+                    <button>boom</button>
                     <button>boom</button>
                 </div>
             </div>
