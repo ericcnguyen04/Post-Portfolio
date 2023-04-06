@@ -28,7 +28,7 @@ export default function Home() {
                 <div className='navContainer'>
                     {/* <button>boom</button>
                     <button>boom</button>
-                    <button>boom</button> */}
+                    <button>booosm</button> */}
                 </div>
             </div>
 
