@@ -3,10 +3,10 @@ import Button from 'react-bootstrap/Button';
 export default function About() {
 
     return(
-        <div className='background'>  
+        <div className='backgroundAbout'>  
             <div>
                 <center>
-                <h1>What is my background?</h1>
+                <h1 id='background'>What is my background?</h1>
                 </center>
             </div>
             <div className='brand'>

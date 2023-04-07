@@ -2,9 +2,19 @@
   height: 100vh;
 }
 
-.background {
+.backgroundAbout {
+  padding-top: 5vh;
   height: 100%;
-  background-color: rgb(114, 114, 194);
+  background-color: rgb(68, 68, 138);
+  border: #972e2e;
+  color: white;
+}
+
+#background {
+  border-bottom: 2px solid rgb(255, 255, 255);
+  padding: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 /* home page */
@@ -26,6 +36,7 @@
 
 body{
     font-family: 'Exo', sans-serif;
+
 }
 
 .theRealLinks {
@@ -203,12 +214,19 @@ body{
 .brand {
   /* margin-left: 5vw;
   margin-right: 5vw; */
-  border: solid black 2px;
+  /* border: solid black 2px; */
   margin: 10px 10vw 5vh 10vw;
   padding: 3rem;
-  font-size: 25px;
-  background-color: rgb(107, 171, 190);
+  font-size: 18px;
+  /* background-color: rgb(107, 171, 190); */
   border-radius: 20px;
+}
+
+.newBrand {
+  border-radius: 50px;
+  background: #6babbe;
+  box-shadow:  20px 20px 60px #5b91a2,
+             -20px -20px 60px #7bc5db;
 }
 
 
@@ -226,8 +244,8 @@ body{
 
 .swimDscpt {
   /* border: solid green 2px; */
-  border: solid black 2px;
-  background-color: rgb(107, 171, 190);
+  /* border: solid black 2px; */
+  /* background-color: rgb(107, 171, 190); */
   padding: 20px;
   height: 576px;
   width: 720px;
