@@ -6,7 +6,7 @@ export default function About() {
         <div className='backgroundAbout'>  
             <div>
                 <center>
-                <h1 id='background'>What is my background?</h1>
+                <h1 id='subtitles'>What is my background?</h1>
                 </center>
             </div>
             <div className='brand'>
@@ -14,9 +14,10 @@ export default function About() {
             {/* how i get into software engineering */}
             <div>
                 <center>
-                <h1>How did I get into software engineering?</h1>
+                <h1 id='subtitles'>How did I get into software engineering?</h1>
                 </center>
             </div>
+
             {/* minecraft era */}
             <center><h2>Minecraft era</h2></center>
             <div className="brand">
@@ -29,11 +30,11 @@ export default function About() {
                     </center>
                 </div>
             </div>
+            {/* post pandemic era */}
             <center><h2>Post-Pandemic era</h2></center>
             <div className='brand'>
             Sometimes all it takes is a little bit of encouragement to discover our true potential. During the 2020 post-pandemic, it was my passion for technology that led me to teach myself how to code. I've spent countless hours poring over coding tutorials and practicing my skills. Along the way, I encountered my fair share of challenges, but my drive and determination to succeed kept me going. I once had a conversation with the valedictorian of my class who was taking AP computer science. I shared my passion for coding with him and he was amazed at my skills and progression. He even went so far as to say that I was more advanced than his classmates in the AP computer science class. His words of encouragement was just the motivation I needed to take my skills to the next level. From that day forward, I was even more determined to pursue a career in software engineering, and you never looked back.
             </div>
-            {/* post pandemic era */}
             <div className="about1">
 
                 <video src='/content/video.mp4' width="324" height="576" className="vid" controls></video>
