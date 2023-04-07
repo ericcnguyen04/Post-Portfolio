@@ -49,18 +49,18 @@ body {
   /* border: solid red 2px */
 }
 
-  .context {
-      width: 100%;
-      position: absolute;
-      top:20vh;
-      /* border: solid red 2px */
-    }
-    
-  .contextBio {
-    /* border: solid red 2px; =====*/ 
-    margin-left: 20%;
-    margin-right: 20%;
+.context {
+    width: 100%;
+    position: absolute;
+    top:20vh;
+    /* border: solid red 2px */
   }
+  
+.contextBio {
+  /* border: solid red 2px; =====*/ 
+  margin-left: 20%;
+  margin-right: 20%;
+}
 
   .navContainer {
     /* border: solid red 2px; ====== */
