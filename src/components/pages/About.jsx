@@ -18,7 +18,7 @@ export default function About() {
                 </center>
             </div>
 
-            <div className='howSE'>
+            <div>
                 {/* minecraft era */}
                 <div>
                     <center><h2>Minecraft era</h2></center>
@@ -42,8 +42,9 @@ export default function About() {
                 </div>
             </div>
 
-            <div className="about1">
 
+            <center><h1 id='subtitles'>How did I get into software engineering?</h1></center>
+            <div className="about1">
                 <video src='/content/video.mp4' width="324" height="576" className="vid" controls></video>
                     
                 {/* my swim era */}
