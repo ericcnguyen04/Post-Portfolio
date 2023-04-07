@@ -217,9 +217,9 @@ body {
 .brand {
   /* margin-left: 5vw;
   margin-right: 5vw; */
-  border: solid black 2px;
-  margin: 10px 10vw 5vh 10vw;
-  padding: 3rem;
+  /* border: solid black 2px; */
+  margin: 10px 19vw 3vh 19vw;
+  padding: 1rem;
   font-size: 18px;
   /* background-color: rgb(107, 171, 190); */
   border-radius: 20px;
