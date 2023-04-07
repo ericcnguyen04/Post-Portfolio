@@ -217,7 +217,7 @@ body {
 .brand {
   /* margin-left: 5vw;
   margin-right: 5vw; */
-  /* border: solid black 2px; */
+  border: solid black 2px;
   margin: 10px 10vw 5vh 10vw;
   padding: 3rem;
   font-size: 18px;
