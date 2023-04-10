@@ -23,8 +23,8 @@ function App() {
       {/* <Navbar /> */}
       
       <Home /> 
-      <About />
       <Projects />
+      <About />
       <Resume />
       <Contact />
       
