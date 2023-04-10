@@ -243,7 +243,7 @@ body {
 /* about page */
 .about1 {
   /* border: solid green 2px; */
-  margin: 10px 19vw 3vh 19vw;
+  margin: 10px 19vw 0vh 19vw;
   /* padding: 40px 10vw 5vh 10vw; */
   display: flex;
   justify-content: space-around;
