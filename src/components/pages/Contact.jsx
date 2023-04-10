@@ -3,7 +3,7 @@
 export default function Contact() {
     return(
         <div className='background'>
-            <center className="height">
+            <center>
 
                 <div>
                     <h1>
