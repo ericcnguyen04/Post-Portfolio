@@ -7,7 +7,7 @@ export default function Projects() {
             <div>
             <div className='project '>
                 <ProjectCards 
-                    deploy={'https://ericcnguyen04.github.io/PROJECT1/'}
+                    deploy={'https://ericcnguyen04.github.io/BirdTime/'}
                     img={'/content/birdtime.png'}
                     title={"CrazyTime"}
                     subtitle={"Collaborative Full Stack"}
