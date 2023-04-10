@@ -37,6 +37,31 @@
 
 } */
 
+.qualifications {
+  /* border: 5px solid rgb(146, 45, 45); */
+  gap: 10;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 20%;
+  margin-left: 20%;
+  padding-bottom: 3vw;
+}
+
+.certificate {
+  width: 40vw;
+  margin-top: 20px;
+  /* border: solid black 2px; */
+}
+
+.resume {
+  /* border: 2px solid red; */
+}
+
+#resumeIMG {
+  width: 15vw;
+  margin-bottom: 5px;
+}
+
 /* ====== */
   @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
@@ -273,12 +298,6 @@ body {
 }
 
 
-/* resume */
-.certificate {
-  width: 60vw;
-  margin-top: 20px;
-  border: solid black 2px;
-}
 
 .project {
     /* border: solid green 2px; */

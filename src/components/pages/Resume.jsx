@@ -20,14 +20,22 @@ export default function Resume() {
 
     return (
         <div className='background'>
-			<center className='height'>
-				<img src="/content/Screen Shot 2023-02-22 at 7.20.49 PM.png" alt='my certification from General Assembly' className="certificate"></img>
+			<div className='qualifications'>
+				<div className='certificateContainer'>
+					<img src="/content/Screen Shot 2023-02-22 at 7.20.49 PM.png" alt='my certification from General Assembly' className="certificate"></img>
+				</div>
 
-				<h3>My Resume</h3>
-
-				<Button variant="primary" onClick={onButtonClick}>
-                    Download</Button>{' '}
-			</center>
+				<div className='resume'>
+					<center>
+						<h3>My Resume</h3>
+						<div>
+							<img src='/content/resume.png' alt='my resume' id='resumeIMG'></img>
+						</div>
+						<Button variant="primary" onClick={onButtonClick}>
+						Download</Button>{' '}
+					</center>
+				</div>
+			</div>
         </div>
     )
 }
