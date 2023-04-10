@@ -24,8 +24,8 @@ function App() {
       
       <Home /> 
       <Projects />
-      <About />
       <Resume />
+      <About />
       <Contact />
       
     </Router>
