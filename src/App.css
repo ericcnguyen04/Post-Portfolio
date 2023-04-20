@@ -285,8 +285,10 @@ body {
 
 /* contact */
 .contact-card {
+  background-color: #161845;
+  color: #fff;
   border: solid black 2px;
-  width: 35vw;
+  width: 100vw;
 }
 
 
