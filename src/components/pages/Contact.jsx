@@ -10,7 +10,8 @@ export default function Contact() {
                     <h3>(404) 933-7143</h3>
                     <a href="https://github.com/ericcnguyen04">My Github</a> <br />
                     <a href="https://www.linkedin.com/in/eric-nguyen-3970b0229/">My Linkedin</a>
-                    Located at Atlanta, Georgia
+                    <h6>Located at Atlanta, Georgia</h6>
+                    <p>yourenote</p>
                 </div>
             </center>
         </div>
