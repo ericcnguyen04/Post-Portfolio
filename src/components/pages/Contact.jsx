@@ -3,7 +3,7 @@
 export default function Contact() {
     return(
         <div className='background'>
-            <center>
+
 
                 <div className="contact-card">
                     <h3>Ericc.win@gmail.com</h3>
@@ -11,9 +11,8 @@ export default function Contact() {
                     <a href="https://github.com/ericcnguyen04">My Github</a> <br />
                     <a href="https://www.linkedin.com/in/eric-nguyen-3970b0229/">My Linkedin</a>
                     <h6>Located at Atlanta, Georgia</h6>
-                    <p>yourenote</p>
                 </div>
-            </center>
+
         </div>
     )
 }
