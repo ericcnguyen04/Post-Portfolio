@@ -285,16 +285,16 @@ body {
 
 /* contact */
 .contact-card {
-  background-color: #161845;
+  background-color: #6b6fb3;
   color: #fff;
-  border: solid black 2px;
+  /* border: solid black 2px; */
   width: 100vw;
 }
 
 .contact-container {
   /* border: solid 2px red; */
 
-  margin: 10px 19vw 3vh 19vw;
+  margin: 0px 19vw 0vh 19vw;
 
 }
 
