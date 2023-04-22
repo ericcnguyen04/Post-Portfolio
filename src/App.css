@@ -291,7 +291,10 @@ body {
   width: 100vw;
 }
 
+.contact-container {
+  margin: 10px 19vw 3vh 19vw;
 
+}
 
 .project {
     /* border: solid green 2px; */
