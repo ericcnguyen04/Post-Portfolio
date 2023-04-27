@@ -20,7 +20,7 @@ function App() {
 
   return(
     <Router className='appMainPage'>
-      {/* <Navbar /> */}
+      <Navbar />
       
       <Home /> 
       <Projects />

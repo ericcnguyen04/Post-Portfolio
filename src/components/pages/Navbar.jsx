@@ -1,3 +1,6 @@
+import {Link} from 'react-scroll'
+
+
 // css
 import '../../css/NavStyle.css'
 
