@@ -6,13 +6,17 @@ import '../../css/NavStyle.css'
 
 export default function Navbar() {
   return (
-    <>
-      <div className='linkContainer'>  
-          <a href="/about" className='links'>About me</a>
-          <a href="/projects" className='links'>Projects</a>
-          <a href="/contact" className='links'>Contact</a>
-          <a href="/resume" className='links'>Resume</a>
-      </div>
-    </>
+    <div>
+      <ul>  
+          <li href="/projects">
+            <Link to='Projects' smooth={true} duration={500}>
+              Projects
+            </Link>
+          </li>
+          <li href="/about">About me</li>
+          <li href="/contact">Contact</li>
+          <li href="/resume">Resume</li>
+      </ul>
+    </div>
   )
 }
