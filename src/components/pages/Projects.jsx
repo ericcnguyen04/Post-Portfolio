@@ -4,7 +4,7 @@ import ProjectCards from './ProjectCards'
 export default function Projects() {
     return(
         <div className='background'>
-            <div>
+            <div name='Project'>
             <div className='project '>
                 <ProjectCards 
                     deploy={'https://ericcnguyen04.github.io/BirdTime/'}
