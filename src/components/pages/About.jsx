@@ -43,7 +43,7 @@ export default function About() {
             </div>
 
 
-            <center><h1 id='subtitles'>How did I get into software engineering?</h1></center>
+            <center><h1 id='subtitles'>My Character</h1></center>
             <div className="about1">
                 <video src='/content/video.mp4' width="324" height="576" className="vid" controls></video>
                     
