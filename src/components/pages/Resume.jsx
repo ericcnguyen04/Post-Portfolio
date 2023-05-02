@@ -28,7 +28,7 @@ export default function Resume() {
 				<div className='resume'>
 					<center>
 						<h3>My Resume</h3>
-						<Button variant="primary" onClick={onButtonClick}>
+						<Button variant="primary">
 						Download</Button>{' '}
 					</center>
 				</div>
