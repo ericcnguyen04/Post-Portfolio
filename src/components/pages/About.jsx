@@ -6,7 +6,7 @@ export default function About() {
         <div className='backgroundAbout'>  
             <div>
                 <center>
-                <h1 id='subtitles'>What is my background?</h1>
+                <h1 id='subtitles'>Background</h1>
                 </center>
             </div>
             <div className='brand'>
