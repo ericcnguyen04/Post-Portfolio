@@ -28,9 +28,6 @@ export default function Resume() {
 				<div className='resume'>
 					<center>
 						<h3>My Resume</h3>
-						<div>
-							<img src='/content/resume.png' alt='my resume' id='resumeIMG'></img>
-						</div>
 						<Button variant="primary" onClick={onButtonClick}>
 						Download</Button>{' '}
 					</center>
