@@ -31,7 +31,7 @@ export default function Resume() {
 						<h3>My Resume</h3>
 						<a href='https://drive.google.com/drive/folders/1sFoTrm961pRG26RDRp8n_wZAQ3al1hHo?usp=sharing'>
 							<Button variant="primary">
-							Download
+							Explore
 							</Button>{' '}
 						</a>
 					</center>
