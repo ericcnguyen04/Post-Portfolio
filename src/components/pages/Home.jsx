@@ -27,7 +27,7 @@ export default function Home() {
                     <Typewriter 
                         onInit={(typewriter) => {
                             typewriter
-                                .typeString("an aspiring full-stack developer with promising contributions to create an impact")
+                                .typeString("a full-stack developer with promising contributions to create an impact")
                                 .pauseFor(200)
                                 .start();
                         }}
