@@ -32,11 +32,11 @@ export default function Projects() {
                 />
 
 
-                <Card style={{ width: '20vw' }}>
+                {/* <Card style={{ width: '20vw' }}>
                     <Card.Body>
                         <Card.Title><h1>More Coming soon!</h1></Card.Title>
                     </Card.Body>
-                </Card>
+                </Card> */}
             </div>
             </div>        
         </div>
