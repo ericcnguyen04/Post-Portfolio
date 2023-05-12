@@ -6,7 +6,7 @@ export default function About() {
         <div className='backgroundAbout'>  
             <div>
                 <center>
-                <h1 id='subtitles'>Background</h1>
+                <h1 id='subtitles'data-aos='fade-right'>Background</h1>
                 </center>
             </div>
             <div className='brand'>
