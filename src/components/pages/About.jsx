@@ -21,7 +21,7 @@ export default function About() {
             <div>
                 {/* minecraft era */}
                 <div>
-                    <center><h2>Minecraft era</h2></center>
+                    <center><h2>Minecraft Era</h2></center>
                     <div className="brand">
                     It's amazing how sometimes our passions can lead us down unexpected paths. For me, it was my love for playing Minecraft, at a very young age, that inadvertently sparked my interest in software engineering. I spent hours creating complex structures in the game using command blocks without even realizing that I was coding. It was through trial and error that I learned how to manipulate the game to create the desired effects, such as recreating popular mini-games and redstone contraptions. It wasn't until years later that I discovered that the skills I had developed while playing Minecraft were transferable to programming and software engineering. This realization was a game-changer for me, and it ultimately led you down the path to becoming a software engineer. My experiences just shows that you will never know where your passions might take you!
                         <div>
@@ -35,7 +35,7 @@ export default function About() {
                 </div>
                 {/* post pandemic era */}
                 <div>
-                    <center><h2>Post-Pandemic era</h2></center>
+                    <center><h2>Post-Pandemic Era</h2></center>
                     <div className='brand'>
                     Sometimes all it takes is a little bit of encouragement to discover our true potential. During the 2020 post-pandemic, it was my passion for technology that led me to teach myself how to code. I've spent countless hours poring over coding tutorials and practicing my skills. Along the way, I encountered my fair share of challenges, but my drive and determination to succeed kept me going. I once had a conversation with the valedictorian of my class who was taking AP computer science. I shared my passion for coding with him and he was amazed at my skills and progression. He even went so far as to say that I was more advanced than his classmates in the AP computer science class. His words of encouragement was just the motivation I needed to take my skills to the next level. From that day forward, I was even more determined to pursue a career in software engineering, and you never looked back.
                     </div>
