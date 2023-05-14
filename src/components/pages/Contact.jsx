@@ -6,11 +6,12 @@ export default function Contact() {
         <div className='contactContainer'>
             <div>
                 <div>
-                    <h1 className="contacth1">contact us</h1>
+                    <h1 className="contacth1">Contact me!</h1>
                 </div>
 	        <div>
-			    <h4>We'd love to hear from you!</h4>
+			    <h4 className='sub'>I'd love to hear from you!</h4>
 	        </div>
+            
             <div>
                 <div>
                     <div>
