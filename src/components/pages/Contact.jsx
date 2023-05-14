@@ -1,11 +1,12 @@
 // import '../../css/ContactStyle.css'
+import '../../App.css'
 
 export default function Contact() {
     return(
         <div className='contactContainer'>
             <div>
                 <div>
-                    <h1>contact us</h1>
+                    <h1 className="contacth1">contact us</h1>
                 </div>
 	        <div>
 			    <h4>We'd love to hear from you!</h4>

@@ -290,10 +290,18 @@ body {
 
 .contactContainer {
   background-color: #022a48;
-  color: white
+  color: white;
+  padding-top: 85px;
+  padding-bottom: 85px;
 }
 
-
+.contacth1 {
+  font-family: 'Poppins', sans-serif, 'arial';
+  font-weight: 600;
+  font-size: 72px;
+  color: white;
+  text-align: center;
+}
 /* ======= */
 
 .project {
