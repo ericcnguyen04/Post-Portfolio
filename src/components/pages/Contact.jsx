@@ -11,9 +11,10 @@ export default function Contact() {
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+        emailjs.sendForm('service_saufldv', 'template_famkt64', form.current, 'BHdZkYWw7238i5vxX')
           .then((result) => {
               console.log(result.text);
+              console.log("message sent")
           }, (error) => {
               console.log(error.text);
           });
