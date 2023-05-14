@@ -33,13 +33,13 @@ export default function Contact() {
                     <form ref={form} onSubmit={sendEmail}>
                         <div>
                             <div className="styled-input wide">
-                                <input type="text" required />
+                                <input type="text" name="from_name" required />
                                 <label>Name</label> 
                             </div>
                         </div>
                         <div>
                             <div className="styled-input">
-                                <input type="text" required />
+                                <input type="text" name="form_email" required />
                                 <label>Email</label> 
                             </div>
                         </div>
@@ -56,7 +56,7 @@ export default function Contact() {
                             </div>
                         </div>
                         <div>
-                            <div className='submit-btn'>Send Message</div>
+                            <div className='submit-btn' type="submit" value="Send">Send Message</div>
                         </div>
                     </form>
 
