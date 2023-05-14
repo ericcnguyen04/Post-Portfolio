@@ -1,6 +1,9 @@
 // import '../../css/ContactStyle.css'
 import '../../App.css'
 
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 export default function Contact() {
     return(
         <div className='contactContainer'>
