@@ -40,8 +40,11 @@ export default function Contact() {
                     <div>
                         <div className='submit-btn'>Send Message</div>
                     </div>
-                {/* <a href="https://github.com/ericcnguyen04" target="_blank"><img src="/content/github.png"></img></a>
-                <a href="https://www.linkedin.com/in/eric-nguyen-3970b0229/" target="_blank"><img src="/content/linkedin.png"></img></a> */}
+
+                    <div>
+                        <a href="https://github.com/ericcnguyen04" target="_blank"><img src="/content/github.png"></img></a>
+                        <a href="https://www.linkedin.com/in/eric-nguyen-3970b0229/" target="_blank"><img src="/content/linkedin.png"></img></a>
+                    </div>
                 </div>
             </div>
         </div>
