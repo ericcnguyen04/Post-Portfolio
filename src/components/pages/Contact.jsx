@@ -18,7 +18,7 @@ export default function Contact() {
               console.log(error.text);
           });
       };
-      
+
     return(
         <div className='contactContainer'>
             <div>
@@ -30,33 +30,35 @@ export default function Contact() {
                 </div>
             
                 <div className='input-container'>
-                    <div>
-                        <div className="styled-input wide">
-                            <input type="text" required />
-                            <label>Name</label> 
+                    <form ref={form} onSubmit={sendEmail}>
+                        <div>
+                            <div className="styled-input wide">
+                                <input type="text" required />
+                                <label>Name</label> 
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <div className="styled-input">
-                            <input type="text" required />
-                            <label>Email</label> 
+                        <div>
+                            <div className="styled-input">
+                                <input type="text" required />
+                                <label>Email</label> 
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <div className="styled-input" id="phoneNumber">
-                            <input type="text" />
-                            <label>Phone Number</label> 
+                        <div>
+                            <div className="styled-input" id="phoneNumber">
+                                <input type="text" />
+                                <label>Phone Number</label> 
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <div className="styled-input wide">
-                            <textarea required></textarea>
-                            <label>Message</label>
+                        <div>
+                            <div className="styled-input wide">
+                                <textarea required></textarea>
+                                <label>Message</label>
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <div className='submit-btn'>Send Message</div>
-                    </div>
+                        <div>
+                            <div className='submit-btn'>Send Message</div>
+                        </div>
+                    </form>
 
                     <div>
                         <a href="https://github.com/ericcnguyen04" target="_blank"><img src="/content/github.png"></img></a>
