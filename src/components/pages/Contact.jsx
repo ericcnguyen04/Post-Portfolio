@@ -24,7 +24,7 @@ export default function Contact() {
                         </div>
                     </div>
                     <div>
-                        <div style="float:right;">
+                        <div>
                             <input type="text" required />
                             <label>Phone Number</label> 
                         </div>
