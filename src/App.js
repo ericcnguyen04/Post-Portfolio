@@ -12,7 +12,7 @@ import './App.css'
 
 function App() {
 
-  const ref = useRef(null);
+  // const ref = useRef(null);
   
   // const handleClick = () => {
   //   ref.current?.scrollIntoView({behavior: 'smooth'});
