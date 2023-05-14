@@ -44,13 +44,13 @@ export default function Contact() {
                             </div>
                         </div>
                         <div>
-                            <div className="styled-input" id="phoneNumber">
+                            <div className="styled-input" name="phone_number" id="phoneNumber">
                                 <input type="text" />
                                 <label>Phone Number</label> 
                             </div>
                         </div>
                         <div>
-                            <div className="styled-input wide">
+                            <div className="styled-input wide" name="message">
                                 <textarea required></textarea>
                                 <label>Message</label>
                             </div>
