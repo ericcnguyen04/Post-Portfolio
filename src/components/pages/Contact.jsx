@@ -26,7 +26,7 @@ export default function Contact() {
                         </div>
                     </div>
                     <div>
-                        <div className="styled-input">
+                        <div className="styled-input" id="phoneNumber">
                             <input type="text" required />
                             <label>Phone Number</label> 
                         </div>
@@ -38,7 +38,7 @@ export default function Contact() {
                         </div>
                     </div>
                     <div>
-                        <div>Send Message</div>
+                        <div className='submit-btn'>Send Message</div>
                     </div>
                 {/* <a href="https://github.com/ericcnguyen04" target="_blank"><img src="/content/github.png"></img></a>
                 <a href="https://www.linkedin.com/in/eric-nguyen-3970b0229/" target="_blank"><img src="/content/linkedin.png"></img></a> */}
