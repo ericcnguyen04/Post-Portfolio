@@ -27,7 +27,7 @@ export default function Contact() {
                     </div>
                     <div>
                         <div className="styled-input" id="phoneNumber">
-                            <input type="text" required />
+                            <input type="text" />
                             <label>Phone Number</label> 
                         </div>
                     </div>
