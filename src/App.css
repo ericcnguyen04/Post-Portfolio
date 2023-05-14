@@ -288,6 +288,13 @@ body {
 
 /* contact */
 
+.contactContainer {
+  background-color: #022a48;
+  color: white
+}
+
+
+/* ======= */
 
 .project {
     /* border: solid green 2px; */
