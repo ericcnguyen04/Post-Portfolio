@@ -26,7 +26,7 @@ function App() {
       <Projects />
       <Resume />
       <About />
-      {/* <Contact /> */}
+      <Contact />
       
     </Router>
   )
