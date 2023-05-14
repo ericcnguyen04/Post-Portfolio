@@ -298,8 +298,8 @@ body {
 .contacth1 {
   /* font-family: 'Poppins', sans-serif, 'arial'; */
   font-weight: 600;
-  font-size: 72px;
-  color: white;
+  font-size: 64px;
+  color: #9b9b9b;
   text-align: center;
 }
 
@@ -309,6 +309,13 @@ body {
   color: #9b9b9b;
   line-height: 1.5;
   text-align: center;
+}
+
+.input-container {
+  width: 650px;
+  max-width: 100%;
+  margin: 20px auto 25px auto;
+  /* border: solid red 2px; */
 }
 /* ======= */
 
