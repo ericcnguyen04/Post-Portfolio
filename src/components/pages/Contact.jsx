@@ -3,40 +3,40 @@
 export default function Contact() {
     return(
         <div className='contactContainer'>
-            <div class="container">
-                <div class="row">
+            <div>
+                <div>
                         <h1>contact us</h1>
                 </div>
-	        <div class="row">
-			    <h4 style="text-align:center">We'd love to hear from you!</h4>
+	        <div>
+			    <h4>We'd love to hear from you!</h4>
 	        </div>
-            <div class="row input-container">
-                    <div class="col-xs-12">
-                        <div class="styled-input wide">
+            <div>
+                    <div>
+                        <div>
                             <input type="text" required />
                             <label>Name</label> 
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="styled-input">
+                    <div>
+                        <div>
                             <input type="text" required />
                             <label>Email</label> 
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="styled-input" style="float:right;">
+                    <div>
+                        <div style="float:right;">
                             <input type="text" required />
                             <label>Phone Number</label> 
                         </div>
                     </div>
-                    <div class="col-xs-12">
-                        <div class="styled-input wide">
+                    <div>
+                        <div>
                             <textarea required></textarea>
                             <label>Message</label>
                         </div>
                     </div>
-                    <div class="col-xs-12">
-                        <div class="btn-lrg submit-btn">Send Message</div>
+                    <div>
+                        <div>Send Message</div>
                     </div>
             </div>
             </div>
