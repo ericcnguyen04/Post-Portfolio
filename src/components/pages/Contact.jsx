@@ -57,7 +57,7 @@ export default function Contact() {
                             </div>
                         </div>
                         <div>
-                            <div className='submit-btn' type="submit" value="Send">Send Message</div>
+                            <div className='submit-btn' type="submit" value="Send" onClick={sendEmail}>Send Message</div>
                         </div>
                     </form>
 
