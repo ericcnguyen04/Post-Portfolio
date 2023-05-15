@@ -46,14 +46,14 @@ export default function Contact() {
                             </div>
                         </div>
                         <div>
-                            <div className="styled-input" name="form_phone_number" id="phoneNumber">
-                                <input type="text" />
+                            <div className="styled-input" id="phoneNumber">
+                                <input type="text" name="form_phone_number"/>
                                 <label>Phone Number</label> 
                             </div>
                         </div>
                         <div>
-                            <div className="styled-input wide" name="form_message">
-                                <textarea required></textarea>
+                            <div className="styled-input wide">
+                                <textarea name="form_message" required></textarea>
                                 <label>Message</label>
                             </div>
                         </div>
