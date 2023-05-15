@@ -15,6 +15,7 @@ export default function Contact() {
           .then((result) => {
               console.log(result.text);
               console.log("message sent")
+              alert("Email Sent! Thank You!")
           }, (error) => {
               console.log(error.text);
           });
@@ -45,13 +46,13 @@ export default function Contact() {
                             </div>
                         </div>
                         <div>
-                            <div className="styled-input" name="phone_number" id="phoneNumber">
+                            <div className="styled-input" name="form_phone_number" id="phoneNumber">
                                 <input type="text" />
                                 <label>Phone Number</label> 
                             </div>
                         </div>
                         <div>
-                            <div className="styled-input wide" name="message">
+                            <div className="styled-input wide" name="form_message">
                                 <textarea required></textarea>
                                 <label>Message</label>
                             </div>
