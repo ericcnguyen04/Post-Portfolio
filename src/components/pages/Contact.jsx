@@ -9,6 +9,7 @@ export default function Contact() {
     const form = useRef();
 
     const sendEmail = (e) => {
+        // prevents refresh
         e.preventDefault();
     
         emailjs.sendForm('service_saufldv', 'template_famkt64', form.current, 'BHdZkYWw7238i5vxX')
