@@ -35,7 +35,7 @@ export default function Projects() {
                     img={'/content/passwordgen.png'}
                     title={"Password Generator"}
                     subtitle={"Speed project"}
-                    text={"My first group project consists the usage of MERN stack. I was the git manager for the back-end of our development"}
+                    text={"My short summer project that consists of React with a goal of completion as fast as possible. Completed within an hour!"}
                     github={'https://github.com/nancyd333/project-3-client'}
                 />
 
