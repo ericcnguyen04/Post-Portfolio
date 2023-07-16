@@ -36,7 +36,7 @@ export default function Projects() {
                     title={"Password Generator"}
                     subtitle={"Speed project"}
                     text={"My short summer project that consists of React with a goal of completion as fast as possible. Completed within an hour!"}
-                    github={'https://github.com/nancyd333/project-3-client'}
+                    github={'https://github.com/ericcnguyen04/password-generator'}
                 />
 
 
