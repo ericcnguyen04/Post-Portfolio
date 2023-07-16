@@ -34,7 +34,7 @@ export default function Projects() {
                     deploy={'https://ericcnguyen04.github.io/password-generator/'}
                     img={'/content/passwordgen.png'}
                     title={"Password Generator"}
-                    subtitle={""}
+                    subtitle={"Speed project"}
                     text={"My first group project consists the usage of MERN stack. I was the git manager for the back-end of our development"}
                     github={'https://github.com/nancyd333/project-3-client'}
                 />
