@@ -10,7 +10,7 @@ export default function Projects() {
                     deploy={'https://ericcnguyen04.github.io/BirdTime/'}
                     img={'/content/birdtime.png'}
                     title={"CrazyTime"}
-                    subtitle={"Collaborative Full Stack"}
+                    subtitle={"Solo First Project"}
                     text={"My very first project consists of HTML, CSS, and JS. This project was inspired by a popular 2014 game known as, Flappy Bird"}
                     github={"https://github.com/ericcnguyen04/PROJECT1"}
                 />
@@ -32,9 +32,9 @@ export default function Projects() {
                 />
                 <ProjectCards 
                     deploy={'https://ericcnguyen04.github.io/password-generator/'}
-                    img={'/content/mernmav.png'}
-                    title={"Mern Maveriks"}
-                    subtitle={"Collaborative Full Stack"}
+                    img={'/content/passwordgen.png'}
+                    title={"Password Generator"}
+                    subtitle={""}
                     text={"My first group project consists the usage of MERN stack. I was the git manager for the back-end of our development"}
                     github={'https://github.com/nancyd333/project-3-client'}
                 />
