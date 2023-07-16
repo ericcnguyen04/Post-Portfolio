@@ -30,6 +30,14 @@ export default function Projects() {
                     text={"My first group project consists the usage of MERN stack. I was the git manager for the back-end of our development"}
                     github={'https://github.com/nancyd333/project-3-client'}
                 />
+                <ProjectCards 
+                    deploy={'https://ericcnguyen04.github.io/password-generator/'}
+                    img={'/content/mernmav.png'}
+                    title={"Mern Maveriks"}
+                    subtitle={"Collaborative Full Stack"}
+                    text={"My first group project consists the usage of MERN stack. I was the git manager for the back-end of our development"}
+                    github={'https://github.com/nancyd333/project-3-client'}
+                />
 
 
                 {/* <Card style={{ width: '20vw' }}>
