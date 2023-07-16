@@ -18,7 +18,7 @@ export default function Projects() {
                     deploy={'https://redface.herokuapp.com/'}
                     img={'/content/redface.png'}
                     title={"Redface"}
-                    subtitle={"Collaborative Full Stack"}
+                    subtitle={"Full Stack"}
                     text={"Developed a full-stack application involving social aspects of alcoholic beverages with features of CRUD using node.js, postgreSQL, and express. I was responsible for the front and backend while implementing APIs."}
                     github={'https://github.com/ericcnguyen04/Project-2'}
                 />
